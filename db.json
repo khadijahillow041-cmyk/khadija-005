@@ -1,0 +1,424 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Admin",
+      "email": "admin@medicare.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "+254700000001",
+      "avatar": "https://randomuser.me/api/portraits/women/50.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dr. James Kimani",
+      "email": "doctor@medicare.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialty": "Cardiology",
+      "departmentId": 1,
+      "phone": "+254700000002",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "bio": "Board-certified cardiologist with 12 years of experience treating complex heart conditions.",
+      "experience": 12,
+      "fee": 2500
+    },
+    {
+      "id": 3,
+      "name": "Dr. Aisha Hassan",
+      "email": "aisha@medicare.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialty": "Neurology",
+      "departmentId": 2,
+      "phone": "+254700000003",
+      "avatar": "https://randomuser.me/api/portraits/women/75.jpg",
+      "bio": "Neurologist specializing in stroke care, epilepsy and headache disorders.",
+      "experience": 9,
+      "fee": 3000
+    },
+    {
+      "id": 4,
+      "name": "Dr. Peter Otieno",
+      "email": "peter@medicare.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialty": "Pediatrics",
+      "departmentId": 3,
+      "phone": "+254700000004",
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+      "bio": "Pediatrician with a passion for child wellness and preventive care.",
+      "experience": 7,
+      "fee": 2000
+    },
+    {
+      "id": 6,
+      "name": "Dr. Terry Onyango",
+      "email": "grace@medicare.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialty": "Dermatology",
+      "departmentId": 5,
+      "phone": "+254700000006",
+      "avatar": "https://randomuser.me/api/portraits/women/22.jpg",
+      "bio": "Dermatologist specializing in medical and cosmetic skin treatments.",
+      "experience": 8,
+      "fee": 2200
+    },
+    {
+      "id": 7,
+      "name": "Dr. Zaid Abdullahi",
+      "email": "zaid@medicare.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialty": "Orthopedics",
+      "departmentId": 4,
+      "phone": "+254700000007",
+      "avatar": "/images/kk.jpeg",
+      "bio": "Orthopedic surgeon focused on sports injuries and joint replacement.",
+      "experience": 11,
+      "fee": 5000
+    },
+    {
+      "id": 8,
+      "name": "Dr. Gladies Waweru",
+      "email": "gladies@medicare.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialty": "Emergency",
+      "departmentId": 6,
+      "phone": "+254700000008",
+      "avatar": "https://randomuser.me/api/portraits/women/88.jpg",
+      "bio": "Emergency medicine specialist with 10 years of trauma care experience.",
+      "experience": 10,
+      "fee": 2800
+    },
+    {
+      "id": 9,
+      "name": "Khadija Jibriel",
+      "email": "khadijahillow041@gmail.com",
+      "password": "keyjibriel",
+      "phone": "+254741274996",
+      "role": "patient",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Mohamed Abdi",
+      "email": "MohamedAbdi@gmail.com",
+      "password": "123456",
+      "phone": "+2547693512",
+      "role": "patient",
+      "avatar": "https://i.pravatar.cc/150?u=MohamedAbdi@gmail.com"
+    },
+    {
+      "id": 11,
+      "name": "Abdullahi Hussein",
+      "email": "Abdullahihussein@gmail.com",
+      "password": "123455",
+      "phone": "+254741276543",
+      "role": "patient",
+      "avatar": "https://i.pravatar.cc/150?u=Abdullahihussein@gmail.com"
+    },
+    {
+      "name": "zaid abdullahi",
+      "email": "zaidAbdullahi@Gmail.com",
+      "password": "123456",
+      "phone": "+2576543890",
+      "role": "patient",
+      "avatar": "https://i.pravatar.cc/150?u=zaidAbdullahi@Gmail.com",
+      "id": 12
+    },
+    {
+      "name": "zaki ahmed",
+      "email": "zakiahmed@gmail.com",
+      "password": "12345",
+      "phone": "+254754327890",
+      "role": "patient",
+      "avatar": "https://i.pravatar.cc/150?u=zakiahmed@gmail.com",
+      "id": 13
+    },
+    {
+      "id": 5,
+      "name": "Mary Wanjiku",
+      "email": "patient@medicare.com",
+      "password": "patient123",
+      "role": "patient",
+      "phone": "+254700000005",
+      "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+      "age": 34,
+      "bloodGroup": "O+"
+    },
+    {
+      "name": "maryan bukut",
+      "email": "maryan@gmail.com",
+      "password": "12345678",
+      "phone": "+254768905342",
+      "role": "patient",
+      "avatar": "https://i.pravatar.cc/150?u=maryan@gmail.com",
+      "id": 14,
+      "age": "28",
+      "bloodGroup": "B+"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Cardiology",
+      "icon": "❤️",
+      "description": "Comprehensive heart and cardiovascular care including diagnostics, treatment and prevention."
+    },
+    {
+      "id": 2,
+      "name": "Neurology",
+      "icon": "🧠",
+      "description": "Specialized care for brain, spine and nervous system disorders with advanced diagnostics."
+    },
+    {
+      "id": 3,
+      "name": "Pediatrics",
+      "icon": "👶",
+      "description": "Compassionate healthcare for infants, children and adolescents at every stage."
+    },
+    {
+      "id": 4,
+      "name": "Orthopedics",
+      "icon": "🦴",
+      "description": "Expert treatment for bones, joints, muscles and sports-related injuries."
+    },
+    {
+      "id": 5,
+      "name": "Dermatology",
+      "icon": "🧴",
+      "description": "Complete skin, hair and nail care with medical and cosmetic treatments."
+    },
+    {
+      "id": 6,
+      "name": "Emergency",
+      "icon": "🚑",
+      "description": "Round-the-clock emergency care with rapid response teams and modern facilities."
+    },
+    {
+      "id": 7,
+      "name": "General Medicine",
+      "icon": "🏥",
+      "description": "General healthcare for common illnesses"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 3,
+      "patientId": 5,
+      "patientName": "Mary Wanjiku",
+      "doctorId": 2,
+      "doctorName": "Dr. James Kimani",
+      "departmentId": 1,
+      "department": "Cardiology",
+      "date": "2026-09-14",
+      "time": "03:44",
+      "reason": "am having a sharp pain in my kidney",
+      "status": "approved",
+      "createdAt": "2026-09-24"
+    },
+    {
+      "id": 4,
+      "patientId": 5,
+      "patientName": "Mary Wanjiku",
+      "doctorId": 8,
+      "doctorName": "Dr. Gladies Waweru",
+      "departmentId": 6,
+      "department": "Emergency",
+      "date": "2026-09-23",
+      "time": "02:50",
+      "reason": "for emergency medical care",
+      "status": "pending",
+      "createdAt": "2026-09-24"
+    },
+    {
+      "id": 5,
+      "patientId": 5,
+      "patientName": "Mary Wanjiku",
+      "doctorId": 3,
+      "doctorName": "Dr. Aisha Hassan",
+      "departmentId": 2,
+      "department": "Neurology",
+      "date": "2026-09-23",
+      "time": "17:06",
+      "reason": "Memory and concentration changes",
+      "status": "approved",
+      "createdAt": "2026-09-25"
+    },
+    {
+      "id": 6,
+      "patientId": 5,
+      "patientName": "Mary Wanjiku",
+      "doctorId": 7,
+      "doctorName": "Dr. Zaid Abdullahi",
+      "departmentId": 4,
+      "department": "Orthopedics",
+      "date": "2026-10-01",
+      "time": "16:18",
+      "reason": "Persistent back and neck pain",
+      "status": "approved",
+      "createdAt": "2026-09-25"
+    },
+    {
+      "id": 7,
+      "patientId": 5,
+      "patientName": "Mary Wanjiku",
+      "doctorId": 6,
+      "doctorName": "Dr. Grace Mwangi",
+      "departmentId": 5,
+      "department": "Dermatology",
+      "date": "2026-09-22",
+      "time": "19:22",
+      "reason": "Redness and Inflammation",
+      "status": "rejected",
+      "createdAt": "2026-09-25"
+    },
+    {
+      "patientId": 13,
+      "patientName": "zaki ahmed",
+      "doctorId": 6,
+      "doctorName": "Dr. Khadija ak",
+      "departmentId": 5,
+      "department": "Dermatology",
+      "date": "2026-09-11",
+      "time": "10:46",
+      "reason": "li-0o",
+      "status": "pending",
+      "createdAt": "2026-09-30",
+      "id": 8
+    },
+    {
+      "patientId": 14,
+      "patientName": "maryan bukut",
+      "doctorId": 7,
+      "doctorName": "Dr. Zaid Abdullahi",
+      "departmentId": 4,
+      "department": "Orthopedics",
+      "date": "2026-09-01",
+      "time": "12:07",
+      "reason": "am having severe backpain",
+      "status": "approved",
+      "createdAt": "2026-09-30",
+      "id": 9
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": 1,
+      "appointmentId": 3,
+      "patientId": 5,
+      "patientName": "Mary Wanjiku",
+      "doctorId": 2,
+      "doctorName": "Dr. James Kimani",
+      "doctorSpecialty": "Cardiology",
+      "diagnosis": "Kidney infection",
+      "medications": [
+        {
+          "name": "Ciprofloxacin",
+          "dosage": "500mg",
+          "frequency": "2x daily",
+          "duration": "7 days"
+        }
+      ],
+      "notes": "Drink plenty of water and complete the full course",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 2,
+      "appointmentId": 3,
+      "patientId": 5,
+      "patientName": "Mary Wanjiku",
+      "doctorId": 2,
+      "doctorName": "Dr. James Kimani",
+      "doctorSpecialty": "Cardiology",
+      "diagnosis": "Acute upper respiratory tract infection",
+      "medications": [
+        {
+          "name": "Paracetamol 500 mg",
+          "dosage": "1 tablet",
+          "frequency": "Every 6-8 hours as needed",
+          "duration": "3 days"
+        }
+      ],
+      "notes": "Take with water. Do not exceed the recommended daily dose. Seek medical review if symptoms worsen or persist.",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 3,
+      "appointmentId": 3,
+      "patientId": 5,
+      "patientName": "Mary Wanjiku",
+      "doctorId": 2,
+      "doctorName": "Dr. James Kimani",
+      "doctorSpecialty": "Cardiology",
+      "diagnosis": "Acute upper respiratory tract infection",
+      "medications": [
+        {
+          "name": "Cetirizine 10 mg",
+          "dosage": "2 tablet",
+          "frequency": "Every 6-8 hours as needed",
+          "duration": "2 weeks"
+        },
+        {
+          "name": "Saline nasal spray",
+          "dosage": "1 tablet",
+          "frequency": "2-3 times daily",
+          "duration": "10 days"
+        }
+      ],
+      "notes": "Rest, drink adequate fluids, and return for medical review if symptoms worsen or do not improve.",
+      "date": "2026-09-25"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Zaid Abdullahi",
+      "email": "ZaidAbdullahi@gmail.com",
+      "message": "testing the contact form",
+      "date": "2026-09-24"
+    },
+    {
+      "name": "asma mohamed",
+      "email": "asma@gmail.com",
+      "message": "i need your services",
+      "date": "2026-09-30",
+      "id": 2
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "5 Tips for a Healthy Heart",
+      "excerpt": "Simple daily habits.",
+      "content": "Cardiovascular disease remains the leading cause of death worldwide.",
+      "author": "Dr. James Kimani",
+      "date": "2025-02-01",
+      "image": "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?w=800",
+      "category": "Cardiology"
+    },
+    {
+      "id": 2,
+      "title": "Understanding Migraines",
+      "excerpt": "More than just headaches.",
+      "content": "Migraines affect over 1 billion people globally.",
+      "author": "Dr. Aisha Hassan",
+      "date": "2025-02-05",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800",
+      "category": "Neurology"
+    },
+    {
+      "id": 3,
+      "title": "Childhood Vaccination Guide",
+      "excerpt": "Complete schedule guide.",
+      "content": "Vaccines are one of the greatest medical achievements.",
+      "author": "Dr. Peter Otieno",
+      "date": "2025-02-08",
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800",
+      "category": "Pediatrics"
+    }
+  ]
+}
